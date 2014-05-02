@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+#####################################
+############ Version 0.1 ############
+#####################################
+#
 # This script wants to be a simple solution to patch any ROM
 # that writes EXT4 /system partition to F2FS filesystem
 #
@@ -47,10 +51,10 @@ eval set -- "$PARSED_OPTIONS";
 
 while true; do
   case "$1" in
-    -h|--help)
+    -h|-help|--help)
         echo "usage $0 [ -h|--help ] [ -f|--force ] your_rom_file.zip"
         exit 0 ;;
-    -f|--force)
+    -f|-force|--force)
         echo "==> Disabling ROM file checks"
         force=1
         shift ;;
