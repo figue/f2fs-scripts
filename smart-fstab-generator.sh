@@ -25,7 +25,7 @@
 # https://android.googlesource.com/device/lge/mako/+/master/fstab.mako
 # http://forum.xda-developers.com/showpost.php?p=51659075
 
-fstabfile="/tmp/fstab.mako"
+fstabfile="/tmp/ramdisk/fstab.mako"
 
 # Start fstab generator
 # Detecting filesystems
